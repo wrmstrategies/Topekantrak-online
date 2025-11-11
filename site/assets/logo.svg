@@ -1,0 +1,9 @@
+
+<svg width="160" height="40" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="60" width="400" height="8" fill="#0d6efd"/>
+  <circle cx="80" cy="64" r="10" fill="#111"/>
+  <circle cx="320" cy="64" r="10" fill="#111"/>
+  <text x="20" y="40" font-family="Segoe UI, Arial" font-weight="bold" font-size="28" fill="#0d6efd">
+    Topeka N‑Trak
+  </text>
+</svg>
