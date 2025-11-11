@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="stylesheet" href="assets/styles.css">
-<title>Topeka N‑Trak</title>
+<title>Roster • Topeka N‑Trak</title>
 <body>
 
 <header>
@@ -19,28 +19,11 @@
 </header>
 
 <main class="container">
-  <section class="hero">
-    <div>
-      <h1>Welcome to Topeka N‑Trak</h1>
-      <p>Model railroading in Topeka, Kansas. Modular layouts, shows, and community events.</p>
-      <p><a class="btn" href="events.html">See Upcoming Events</a></p>
-    </div>
-  </section>
-  <section class="grid">
-    <div class="card">
-      <h3>About</h3>
-      <p>We build and run N‑scale modular layouts. Visitors and new members are always welcome.</p>
-    </div>
-    <div class="card">
-      <h3>Latest Event</h3>
-      <div id="latest-event">Loading…</div>
-    </div>
-    <div class="card">
-      <h3>Get Involved</h3>
-      <p>Want to help at a show or build a module? Tap Join to get started.</p>
-      <a class="btn" href="join.html">Join the Club</a>
-    </div>
-  </section>
+  <h1>Club Roster</h1>
+  <table id="roster">
+    <thead><tr><th>Name</th><th>Role</th><th>Contact</th></tr></thead>
+    <tbody></tbody>
+  </table>
 </main>
 
 <footer>
@@ -48,7 +31,7 @@
 </footer>
 
 <script src="js/app.js"></script>
-<script>setActive('home'); loadLatestEvent();</script>
+<script>setActive('roster'); loadRoster();</script>
 <script>if('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');</script>
 </body>
 </html>
